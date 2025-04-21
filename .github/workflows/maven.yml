@@ -27,4 +27,5 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: maven-build-output
-        path: server/target/*
+        #path: server/target/*
+        path: server/target/kkFileView-4.4.0.tar.gz
